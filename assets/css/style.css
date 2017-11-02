@@ -31,8 +31,8 @@ h3 {
 nav {
 	border-bottom: solid 2px #aaaaaa;
 	text-align: right;
-	padding: 35px 200px;
-	background-color: white;
+	padding: 2% 15%;
+	background-color: #ffffff;
 }
 
 a {
@@ -117,11 +117,12 @@ button {
 
 #nameHeader {
 	position: absolute;
-	padding: 35px 30px;
-	margin-left: 15%;
+	padding: 2% 3%;
+	margin-left: 0px;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	font-size: 16px;
+	top: 0;
 }
 
 #masonTerryImage {
