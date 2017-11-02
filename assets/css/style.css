@@ -31,7 +31,7 @@ h3 {
 nav {
 	border-bottom: solid 2px #aaaaaa;
 	text-align: right;
-	padding: 2% 15%;
+	padding: 0% 15%;
 	background-color: #ffffff;
 }
 
@@ -41,16 +41,12 @@ hr {
 
 p {
 	margin: 10px;
-	line-height: 200%;
+	line-height: 2;
 }
 
 section {
 	background-color: #ffffff;
 	margin: 3% 0;
-}
-
-a {
-	
 }
 
 footer {
@@ -109,13 +105,18 @@ button {
 }
 
 #nameHeader {
-	position: absolute;
-	padding: 2% 3%;
-	margin-left: 0px;
+	width: 200px;
+	position: ;
+	padding: 30px;
+	margin-left: 0;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	font-size: 16px;
 	top: 0;
+}
+
+#navButtons {
+	margin: 4% 0;
 }
 
 #masonTerryImage {
