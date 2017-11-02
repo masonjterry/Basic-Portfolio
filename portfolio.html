@@ -3,30 +3,56 @@
 <head>
 	<meta charset="UFT-8">
 	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-
 <!-- Header -->
-	<nav>
+	<div id="nameHeader">
 	<h1>Mason Terry</h1>
-	<h4>About</h4>
-	<h4>Portfolio</h4>
-	<h4>Contact</h4>
+	</div>
+	<nav class="nav">
+		<a id="about" href="index.html">About</a>
+		<a id="portfolio" href="portfolio.html">Portfolio</a>
+		<a id="contact" href="contact.html">Contact</a>
 	</nav>
 
 <!-- Portfolio -->
-	<section>
+	<div id="container">
+	<section id="portfolioPage" class="floatLeft">
 	<h2>Portfolio</h2>
-	<img src="#" alt="Hangman">
-	<img src="#" alt="RPG">
-	<img src="#" alt="Trivia Game">
-	<img src="#" alt="Rutgers Info Widget">
-	<img src="#" alt="Rock Paper Scissors">
+	<hr id="portfolioHR">
+
+	<p id="hangman" class="position">Hangman</p>
+	<img class="portImg" id="laptop" src="assets/images/laptop.jpeg" alt="laptop">
+
+	<p id="rpgGame" class="position">RPG Game</p>
+	<img class="portImg" id="computer-desk" src="assets/images/computer-desk.jpeg" alt="computer-desk">
+	
+	<p id="triviaGame" class="position">Trivia Game</p>
+	<img class="portImg" id="create" src="assets/images/create.jpeg" alt="create">
+
+	<p id="rutgers" class="position">Rutgers Info Widget</p>
+	<img class="portImg" id="desktop" src="assets/images/desktop.png" alt="desktop">
+
+	<p id="rockPaperScissors" class="position">Rock Paper Scirrors</p>
+	<img class="portImg" id="overhead" src="assets/images/overhead.jpeg" alt="overhead">
 
 	</section>
 
+<!-- Connect -->
+	<section id="connect" class="floatRight">
+		<h3>Connect with Me</h3>
+		<hr id="connectHR">
+		<div class="center">
+		<img class="imgSize" id="GitHub-Logo" src="assets/images/GitHub-Logo.png" alt="GitHub-Logo">
+		<img class="imgSize" id="LinkedIn-Logo" src="assets/images/LinkedIn-Logo.png" alt="LinkedIn-Logo">
+		<img class="imgSize" id="StackOverflow-Logo" src="assets/images/StackOverflow-Logo.png" alt="StackOverflow-Logo">
+		</div>
+	</section>
+	</div>
+
 <!-- Footer -->	
-	<footer>Copyright 2017 Mason Terry</footer>
+	<footer>&copy; Copyright 2017 Mason Terry</footer>
 </body>
 </html>

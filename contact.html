@@ -8,26 +8,53 @@
 </head>
 <body>
 <!-- Header -->
-	<nav>
+	<div id="nameHeader">
 	<h1>Mason Terry</h1>
-	<h4>About</h4>
-	<h4>Portfolio</h4>
-	<h4>Contact</h4>
+	</div>
+	<nav class="nav">
+		<a id="about" href="index.html">About</a>
+		<a id="portfolio" href="portfolio.html">Portfolio</a>
+		<a id="contact" href="contact.html">Contact</a>
 	</nav>
 
 <!-- Contact -->
-	<section>
+	<div id="container">
+	<section id="contactMe" class="floatLeft">
 	<h2>Contact</h2>
-	<hr>
+	<hr id="contactHR">
+<!-- Contact Form -->
 	<form>
-		<input type="text" name="name" placeholder="John Smith">
-		<input type="email" name="email" placeholder="example@gmail.com">
+		<div id="nameInput">
+		<label for="name">Name</label><br>
+		<input id="name" class="input" name="name" type="text" placeholder="John Smith"><br>
+		</div>
 
+		<div id="emailInput">
+		<label for="email">Email</label><br>
+		<input id="email" class="input" name="email" type="text" placeholder="example@gmail.com"><br>
+		</div>
+
+		<div id="messageInput">
+		<label for="message">Message</label><br>
+		<textarea id="message" class="input" name="message" rows="15" cols="50"></textarea><br>
+		</div>
+		<button id="button" type="submit">Submit</button>
 	</form>
 	</section>
 
-<!-- Footer -->	
-	<footer>Copyright 2017 Mason Terry</footer>
+<!-- Connect -->
+	<section id="connect" class="floatRight">
+		<h3>Connect with Me</h3>
+		<hr id="connectHR">
+		<div class="center">
+		<img class="imgSize" id="GitHub-Logo" src="assets/images/GitHub-Logo.png" alt="GitHub-Logo">
+		<img class="imgSize" id="LinkedIn-Logo" src="assets/images/LinkedIn-Logo.png" alt="LinkedIn-Logo">
+		<img class="imgSize" id="StackOverflow-Logo" src="assets/images/StackOverflow-Logo.png" alt="StackOverflow-Logo">
+		</div>
+	</section>
+	</div>
 
+<!-- Footer -->	
+	<footer>&copy; Copyright 2017 Mason Terry</footer>
 </body>
 </html>
