@@ -42,6 +42,11 @@ a {
 	text-decoration: none;
 }
 
+a:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
 hr {
 	margin: 20px 0px;
 }
