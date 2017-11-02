@@ -35,18 +35,6 @@ nav {
 	background-color: #ffffff;
 }
 
-a {
-	padding: 0px 20px;
-	font-size: 14px;
-	color: #aaaaaa;
-	text-decoration: none;
-}
-
-a:hover {
-	background-color: #4aaaa5;
-	color: #ffffff;
-}
-
 hr {
 	margin: 20px 0px;
 }
@@ -59,6 +47,10 @@ p {
 section {
 	background-color: #ffffff;
 	margin: 3% 0;
+}
+
+a {
+	
 }
 
 footer {
@@ -144,6 +136,18 @@ button {
 	padding: 20px;
 	margin-left: ;
 	border: solid 1px #d3d3d3;
+}
+
+#about, #portfolio, #contact {
+	padding: 0px 20px;
+	font-size: 14px;
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+#about:hover, #portfolio:hover, #contact:hover {
+	background-color: #4aaaa5;
+	color: #ffffff;
 }
 
 #container {
